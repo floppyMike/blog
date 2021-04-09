@@ -3,6 +3,8 @@ layout: post
 title:  "Onion design pattern"
 date:   2021-01-02 10:45:31 +1000
 categories: c++
+image: "assets/onion.jpeg"
+description: "A pattern fully using templates to layer functionality of objects on top of each other."
 ---
 * What
 {:toc}

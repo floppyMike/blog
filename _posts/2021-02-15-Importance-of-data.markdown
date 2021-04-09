@@ -3,7 +3,8 @@ layout: post
 title:  "Importance of Data"
 date:   2021-02-15 18:00:56 +1000
 categories: c++
-gif: dogs
+description: "Explains how data influences the execution speed of programs."
+image: "assets/cpucache.jpeg"
 ---
 * W
 {:toc}

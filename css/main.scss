@@ -43,6 +43,16 @@ hr {
     margin: auto;
 }
 
+.featured-img{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    img{
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
 // Navbar
 
 .navbar {
