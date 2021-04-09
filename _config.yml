@@ -1,0 +1,19 @@
+title: Michaels Random Texts
+email: ---
+description: >-
+  Contains math, physics and c++ notes not seen at any other website.
+baseurl: "/blog"
+url: "https://floppymike.github.io/"
+author:
+  name: "Michaellu"
+  email: "---"
+  url: "https://floppymike.github.io/"
+permalink: /:year/:month/:day/:title:output_ext
+
+favicon: /blog/assets/favicon.ico
+
+plugins: [jekyll-paginate]
+
+paginate: 10
+paginate_path: "/page:num/"
+

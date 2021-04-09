@@ -1,0 +1,31 @@
+---
+layout: default
+title: home
+---
+
+{% for post in paginator.posts %}
+<div class="post-card">
+	<a class="title" href="{{site.baseurl}}{{ post.url }}">
+		{{ post.title }}
+	</a>
+
+	<div class="details">
+		<b>{{ post.date | date: "%d %B %Y" }}</b>
+		<br>
+		{% if post.categories %}
+			<b>[</b>
+			{% for category in post.categories %}
+				<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% if forloop.last == false %},{% endif %}
+			{% endfor %}
+			<b>]</b>
+		{% endif %}
+	</div>
+
+	<div class="subtitle">
+		{{ post.description }}
+	</div>
+
+	<hr>
+
+</div>
+{% endfor %}

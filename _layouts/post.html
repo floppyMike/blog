@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="page-subtitle">
+    <b>[</b>
+    {% for category in page.categories %}
+        <a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>
+        {% if forloop.last == false %}
+            ,
+        {% endif %}
+    {% endfor %}
+    <b>]</b>
+</div>
+
+{{content}}
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
