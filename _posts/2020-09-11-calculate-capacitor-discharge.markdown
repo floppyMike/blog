@@ -2,7 +2,7 @@
 layout: post
 title:  "Calculate capacitor discharge voltage"
 date:   2020-09-10 14:19:45 +0000
-categories: capacitor math
+categories: math physics
 description: "Derivation steps to get the formula for capacitor discharge."
 image: "/assets/capacitor.jpeg"
 ---

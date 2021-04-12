@@ -2,7 +2,7 @@
 layout: post
 title:  "Derivation Proofs"
 date:   2020-10-02 19:09:05 +0200
-categories: math derivation
+categories: math
 description: "A collection of proofs for the basic rules of derivation."
 image: "assets/tangent.png"
 ---

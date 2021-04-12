@@ -2,7 +2,7 @@
 layout: post
 title:  "What does a PC do at startup?"
 date:   2020-09-10 11:43:34 +0000
-categories: boot computer
+categories: computer
 ---
 * What
 {:toc}

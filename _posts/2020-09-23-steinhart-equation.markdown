@@ -2,7 +2,7 @@
 layout: post
 title:  "Steinhart Equation Inverse Derivation and Back"
 date:   2020-09-23 22:04:48 +0200
-categories: math thermistor
+categories: math physics
 image: "/assets/thermistor.jpeg"
 description: "How to solve for temperatur or resistance."
 ---
